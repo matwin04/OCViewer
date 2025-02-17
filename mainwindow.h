@@ -22,8 +22,8 @@ public:
 private slots:
     void updateFrame();
     void changeResolution(int index);
-
-    void selectAudioDevice();
+    void selectInputDevice();
+    void selectOutputDevice();
 
 private:
     Ui::MainWindow *ui;
@@ -31,10 +31,14 @@ private:
     cv::Mat frame;
     QTimer *videoTimer, *audioTimer;
 
-    // SDL Audio
-    SDL_AudioDeviceID audioDevice;
-    std::vector<std::string> availableDevices;
-    QPushButton *deviceSelectButton;
+    // SDL Audio Input & Output
+    SDL_AudioDeviceID inputDevice;
+    SDL_AudioDeviceID outputDevice;
+    std::vector<std::string> availableInputDevices;
+    std::vector<std::string> availableOutputDevices;
+
+    QPushButton *inputDeviceButton;
+    QPushButton *outputDeviceButton;
 
     // VU Meter
     QProgressBar *vuMeter;

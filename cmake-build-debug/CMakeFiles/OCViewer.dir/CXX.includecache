@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/mnt/drives/HD2/Projects/OCV2Viewer/cmake-build-debug/OCViewer_autogen/EWIEGA46WW/moc_mainwindow.cpp
+memory
+-
+../../../mainwindow.h
+/mnt/drives/HD2/Projects/OCV2Viewer/mainwindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/mnt/drives/HD2/Projects/OCV2Viewer/cmake-build-debug/OCViewer_autogen/mocs_compilation.cpp
+EWIEGA46WW/moc_mainwindow.cpp
+/mnt/drives/HD2/Projects/OCV2Viewer/cmake-build-debug/OCViewer_autogen/EWIEGA46WW/moc_mainwindow.cpp
+
+/mnt/drives/HD2/Projects/OCV2Viewer/main.cpp
+mainwindow.h
+/mnt/drives/HD2/Projects/OCV2Viewer/mainwindow.h
+QApplication
+-
+
 /mnt/drives/HD2/Projects/OCV2Viewer/mainwindow.cpp
 mainwindow.h
 /mnt/drives/HD2/Projects/OCV2Viewer/mainwindow.h

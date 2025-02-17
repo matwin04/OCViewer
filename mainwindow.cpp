@@ -38,13 +38,20 @@ MainWindow::MainWindow(QWidget *parent)
     SDL_Init(SDL_INIT_AUDIO);
 
     // List available audio input devices
-    int numDevices = SDL_GetNumAudioDevices(1);
-    for (int i = 0; i < numDevices; i++) {
-        availableDevices.push_back(SDL_GetAudioDeviceName(i, 1));
+    int numInputDevices = SDL_GetNumAudioDevices(1);
+    for (int i = 0; i < numInputDevices; i++) {
+        availableInputDevices.push_back(SDL_GetAudioDeviceName(i, 1));
     }
 
-    // Select default audio device
-    selectAudioDevice();
+    // List available audio output devices
+    int numOutputDevices = SDL_GetNumAudioDevices(0);
+    for (int i = 0; i < numOutputDevices; i++) {
+        availableOutputDevices.push_back(SDL_GetAudioDeviceName(i, 0));
+    }
+
+    // Select default audio devices
+    selectInputDevice();
+    selectOutputDevice();
 
     // Add VU Meter
     vuMeter = new QProgressBar(this);
@@ -52,15 +59,20 @@ MainWindow::MainWindow(QWidget *parent)
     vuMeter->setValue(0);
     ui->verticalLayout->addWidget(vuMeter);
 
-    // Add button to change audio device
-    deviceSelectButton = new QPushButton("Select Audio Device", this);
-    connect(deviceSelectButton, &QPushButton::clicked, this, &MainWindow::selectAudioDevice);
-    ui->verticalLayout->addWidget(deviceSelectButton);
+    // Add buttons for input & output selection
+    inputDeviceButton = new QPushButton("Select Input Device", this);
+    connect(inputDeviceButton, &QPushButton::clicked, this, &MainWindow::selectInputDevice);
+    ui->verticalLayout->addWidget(inputDeviceButton);
+
+    outputDeviceButton = new QPushButton("Select Output Device", this);
+    connect(outputDeviceButton, &QPushButton::clicked, this, &MainWindow::selectOutputDevice);
+    ui->verticalLayout->addWidget(outputDeviceButton);
 }
 
 MainWindow::~MainWindow() {
     cap.release();
-    SDL_CloseAudioDevice(audioDevice);
+    SDL_CloseAudioDevice(inputDevice);
+    SDL_CloseAudioDevice(outputDevice);
     SDL_Quit();
     delete ui;
 }
@@ -91,61 +103,65 @@ void MainWindow::changeResolution(int index) {
     }
 }
 
-// SDL Audio Callback Function (Runs in a separate thread)
+// SDL Audio Callback
 void MainWindow::audioCallback(void* userdata, Uint8* stream, int len) {
     MainWindow *self = static_cast<MainWindow*>(userdata);
-    int samples = len / sizeof(Sint16);
-    std::vector<Sint16> buffer(samples);
+    std::vector<Sint16> buffer(len / sizeof(Sint16));
 
-    // Capture audio samples
-    int dequeued = SDL_DequeueAudio(self->audioDevice, buffer.data(), len);
+    int dequeued = SDL_DequeueAudio(self->inputDevice, buffer.data(), len);
     if (dequeued > 0) {
-        // Debugging: Print that we are receiving audio
-        std::cout << "Captured " << dequeued << " bytes of audio." << std::endl;
+        SDL_QueueAudio(self->outputDevice, buffer.data(), dequeued);
 
-        // Compute RMS (Root Mean Square) for VU Meter
         double sum = 0;
         for (Sint16 sample : buffer) {
             sum += sample * sample;
         }
-        double rms = std::sqrt(sum / samples);
+        double rms = std::sqrt(sum / buffer.size());
         int volumeLevel = std::min(100, static_cast<int>(rms / 32767.0 * 100));
 
-        // Update VU meter (thread-safe method via Qt signal)
         QMetaObject::invokeMethod(self->vuMeter, "setValue", Qt::QueuedConnection, Q_ARG(int, volumeLevel));
-
-        // Queue audio for playback
-        SDL_QueueAudio(self->audioDevice, buffer.data(), len);
     }
 }
 
-// Select an audio device
-void MainWindow::selectAudioDevice() {
+// Select input device
+void MainWindow::selectInputDevice() {
     bool ok;
     QStringList deviceList;
-    for (const std::string &device : availableDevices) {
+    for (const std::string &device : availableInputDevices) {
         deviceList << QString::fromStdString(device);
     }
 
-    QString selectedDevice = QInputDialog::getItem(this, "Select Audio Device", "Audio Input:", deviceList, 0, false, &ok);
+    QString selectedDevice = QInputDialog::getItem(this, "Select Input Device", "Microphone:", deviceList, 0, false, &ok);
 
     if (ok && !selectedDevice.isEmpty()) {
-        SDL_CloseAudioDevice(audioDevice);
+        SDL_CloseAudioDevice(inputDevice);
 
-        SDL_AudioSpec desiredSpec;
-        SDL_memset(&desiredSpec, 0, sizeof(desiredSpec));
-        desiredSpec.freq = 44100;
-        desiredSpec.format = AUDIO_S16LSB;
-        desiredSpec.channels = 1;
-        desiredSpec.samples = 4096;
-        desiredSpec.callback = audioCallback;
-        desiredSpec.userdata = this;
+        SDL_AudioSpec spec = {};
+        spec.freq = 44100;
+        spec.format = AUDIO_S16LSB;
+        spec.channels = 1;
+        spec.samples = 4096;
+        spec.callback = audioCallback;
+        spec.userdata = this;
 
-        audioDevice = SDL_OpenAudioDevice(selectedDevice.toStdString().c_str(), 1, &desiredSpec, nullptr, 0);
-        if (!audioDevice) {
-            std::cerr << "Error: Cannot open selected audio device" << std::endl;
-        } else {
-            SDL_PauseAudioDevice(audioDevice, 0); // Start audio playback
-        }
+        inputDevice = SDL_OpenAudioDevice(selectedDevice.toStdString().c_str(), 1, &spec, nullptr, 0);
+        SDL_PauseAudioDevice(inputDevice, 0);
+    }
+}
+
+// Select output device
+void MainWindow::selectOutputDevice() {
+    bool ok;
+    QStringList deviceList;
+    for (const std::string &device : availableOutputDevices) {
+        deviceList << QString::fromStdString(device);
+    }
+
+    QString selectedDevice = QInputDialog::getItem(this, "Select Output Device", "Speaker:", deviceList, 0, false, &ok);
+
+    if (ok && !selectedDevice.isEmpty()) {
+        SDL_CloseAudioDevice(outputDevice);
+        outputDevice = SDL_OpenAudioDevice(selectedDevice.toStdString().c_str(), 0, nullptr, nullptr, 0);
+        SDL_PauseAudioDevice(outputDevice, 0);
     }
 }
