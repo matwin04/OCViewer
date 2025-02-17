@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${vcpkgRoot}/x64-linux/include",
+                "/usr/include/opencv4",
+                "/usr/include/glibmm-2.68",
+                "/usr/include/gtkmm-3.0",
+                "/usr/include/glibmm-2.4",
+                "/usr/lib/x86_64-linux-gnu/glibmm-2.4/include",
+                "/usr/include/glib-2.0",
+                "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/glib-2.0/include",
+                "/usr/include/sigc++-3.0",
+                "/usr/lib/x86_64-linux-gnu/sigc++-2.0/include",
+                "/usr/include/giomm-2.68",
+                "/usr/lib/x86_64-linux-gnu/giomm-2.4/include",
+                "/usr/include/gdkmm-3.0",
+                "/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compilerPath": "/usr/bin/g++"
+        }
+    ],
+    "version": 4
+}

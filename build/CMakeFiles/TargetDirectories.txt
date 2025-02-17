@@ -1,0 +1,5 @@
+/mnt/drives/HD2/Projects/OCV2Viewer/build/CMakeFiles/OCViewer.dir
+/mnt/drives/HD2/Projects/OCV2Viewer/build/CMakeFiles/edit_cache.dir
+/mnt/drives/HD2/Projects/OCV2Viewer/build/CMakeFiles/rebuild_cache.dir
+/mnt/drives/HD2/Projects/OCV2Viewer/build/CMakeFiles/OCViewer_autogen_timestamp_deps.dir
+/mnt/drives/HD2/Projects/OCV2Viewer/build/CMakeFiles/OCViewer_autogen.dir

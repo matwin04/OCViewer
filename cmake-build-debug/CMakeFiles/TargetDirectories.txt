@@ -1,0 +1,4 @@
+/mnt/drives/HD2/Projects/OCV2Viewer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/drives/HD2/Projects/OCV2Viewer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/drives/HD2/Projects/OCV2Viewer/cmake-build-debug/CMakeFiles/OCViewer.dir
+/mnt/drives/HD2/Projects/OCV2Viewer/cmake-build-debug/CMakeFiles/OCViewer_autogen.dir

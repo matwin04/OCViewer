@@ -1,0 +1,6 @@
+/home/mwiner/CLion/clion-2020.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/drives/HD2/Projects/OCV2Viewer
+-- Checking for module 'sdl2'
+--   Found sdl2, version 2.30.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/drives/HD2/Projects/OCV2Viewer/cmake-build-debug

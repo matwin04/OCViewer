@@ -1,0 +1,2707 @@
+{
+	"entries" : 
+	[
+		{
+			"name" : "CMAKE_ADDR2LINE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/addr2line"
+		},
+		{
+			"name" : "CMAKE_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ar"
+		},
+		{
+			"name" : "CMAKE_BUILD_TYPE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "STRING",
+			"value" : "Debug"
+		},
+		{
+			"name" : "CMAKE_CACHEFILE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the directory where this CMakeCache.txt was created"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/mnt/drives/HD2/Projects/OCV2Viewer/build"
+		},
+		{
+			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Major version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_CACHE_MINOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minor version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "28"
+		},
+		{
+			"name" : "CMAKE_CACHE_PATCH_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Patch version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable colored diagnostics throughout."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_COLOR_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable color output during build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CMAKE_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/cmake"
+		},
+		{
+			"name" : "CMAKE_CPACK_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cpack program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/cpack"
+		},
+		{
+			"name" : "CMAKE_CTEST_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to ctest program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/ctest"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/g++"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar-13"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib-13"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar-13"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib-13"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_DLLTOOL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_EXECUTABLE_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Executable file format"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ELF"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of external makefile project generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/drives/HD2/Projects/OCV2Viewer/build/CMakeFiles/pkgRedirects"
+		},
+		{
+			"name" : "CMAKE_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Unix Makefiles"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_INSTANCE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generator instance identifier."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_PLATFORM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator platform."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_TOOLSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator toolset."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HOME_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/mnt/drives/HD2/Projects/OCV2Viewer"
+		},
+		{
+			"name" : "CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install path prefix, prepended onto install directories."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SO_NO_EXE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install .so files without execute permission."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_LINKER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ld"
+		},
+		{
+			"name" : "CMAKE_MAKE_PROGRAM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gmake"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_NM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/nm"
+		},
+		{
+			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "number of local generators"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_OBJCOPY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objcopy"
+		},
+		{
+			"name" : "CMAKE_OBJDUMP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objdump"
+		},
+		{
+			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Platform information initialized"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_DESCRIPTION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OCViewer"
+		},
+		{
+			"name" : "CMAKE_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ranlib"
+		},
+		{
+			"name" : "CMAKE_READELF",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/readelf"
+		},
+		{
+			"name" : "CMAKE_ROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake installation."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/share/cmake-3.28"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_SKIP_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when using shared libraries."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STRIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/strip"
+		},
+		{
+			"name" : "CMAKE_TAPI",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_TAPI-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_TOOLCHAIN_FILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The CMake toolchain file"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"name" : "CMAKE_UNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "uname command"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/uname"
+		},
+		{
+			"name" : "CMAKE_VERBOSE_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenCV"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr][v4.6.0()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding PkgConfig"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/bin/pkg-config][v1.8.1()]"
+		},
+		{
+			"name" : "GTKMM_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/gtkmm-3.0;-I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include;-I/usr/include/giomm-2.4;-I/usr/lib/x86_64-linux-gnu/giomm-2.4/include;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/glib-2.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib/glib-2.0/include;-I/usr/include/glibmm-2.4;-I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include;-I/usr/include/sigc++-2.0;-I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include;-I/usr/include/gtk-3.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/pango-1.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/fribidi;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/harfbuzz;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/libpng16;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/cairo;-I/usr/include;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/pixman-1;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/gdk-pixbuf-2.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/gio-unix-2.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/atk-1.0;-I/usr/include/at-spi2-atk/2.0;-I/usr/include/at-spi-2.0;-I/usr/include/dbus-1.0;-I/usr/lib/x86_64-linux-gnu/dbus-1.0/include;-I/usr/include/cairomm-1.0;-I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include;-I/usr/include/pangomm-1.4;-I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include;-I/usr/include/atkmm-1.6;-I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include;-I/usr/include/gtk-3.0/unix-print;-I/usr/include/gdkmm-3.0;-I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include;-DXML_STATIC;-DLZMA_API_STATIC;-pthread"
+		},
+		{
+			"name" : "GTKMM_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-DXML_STATIC;-DLZMA_API_STATIC;-pthread"
+		},
+		{
+			"name" : "GTKMM_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "GTKMM_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "GTKMM_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/gtkmm-3.0;/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include;/usr/include/giomm-2.4;/usr/lib/x86_64-linux-gnu/giomm-2.4/include;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/glib-2.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib/glib-2.0/include;/usr/include/glibmm-2.4;/usr/lib/x86_64-linux-gnu/glibmm-2.4/include;/usr/include/sigc++-2.0;/usr/lib/x86_64-linux-gnu/sigc++-2.0/include;/usr/include/gtk-3.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/pango-1.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/fribidi;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/harfbuzz;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/libpng16;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/cairo;/usr/include;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/pixman-1;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/gdk-pixbuf-2.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/gio-unix-2.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/atk-1.0;/usr/include/at-spi2-atk/2.0;/usr/include/at-spi-2.0;/usr/include/dbus-1.0;/usr/lib/x86_64-linux-gnu/dbus-1.0/include;/usr/include/cairomm-1.0;/usr/lib/x86_64-linux-gnu/cairomm-1.0/include;/usr/include/pangomm-1.4;/usr/lib/x86_64-linux-gnu/pangomm-1.4/include;/usr/include/atkmm-1.6;/usr/lib/x86_64-linux-gnu/atkmm-1.6/include;/usr/include/gtk-3.0/unix-print;/usr/include/gdkmm-3.0;/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include"
+		},
+		{
+			"name" : "GTKMM_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-L/usr/lib/x86_64-linux-gnu;-lgtkmm-3.0;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-latkmm-1.6;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lgdkmm-3.0;-lgiomm-2.4;-lgtk-3;-lgdk-3;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-lfreetyped;-latk-1.0;-lfreetyped;-lcairo-gobject;-lfreetyped;-lfreetyped;-lfreetyped;-lpangomm-1.4;-lglibmm-2.4;-lcairomm-1.0;-lsigc-2.0;-lfreetyped;-lpangocairo-1.0;-lm;-lfreetyped;-lfreetyped;-lpangoft2-1.0;-lpango-1.0;-lm;-lfreetyped;-lfreetyped;-lm;-lfreetyped;-lfreetyped;-lfribidi;-lharfbuzz;-lm;-lfreetyped;-lcairo;-ldl;-lfontconfig;-lfreetyped;-lexpat;-lfreetyped;-lbz2d;-lbrotlidec;-lbrotlicommon;-lXext;-lXrender;-lX11;-lpixman-1;-lgdk_pixbuf-2.0;-lpng16d;-ltiffd;-ljpeg;-llzma;-lgio-2.0;-lgobject-2.0;-lffi;-lgmodule-2.0;-lglib-2.0;-lm;-pthread;-lpcre2-8;-lz"
+		},
+		{
+			"name" : "GTKMM_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread"
+		},
+		{
+			"name" : "GTKMM_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "GTKMM_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gtkmm-3.0;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;atkmm-1.6;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;freetyped;gdkmm-3.0;giomm-2.4;gtk-3;gdk-3;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;m;freetyped;freetyped;freetyped;freetyped;freetyped;atk-1.0;freetyped;cairo-gobject;freetyped;freetyped;freetyped;pangomm-1.4;glibmm-2.4;cairomm-1.0;sigc-2.0;freetyped;pangocairo-1.0;m;freetyped;freetyped;pangoft2-1.0;pango-1.0;m;freetyped;freetyped;m;freetyped;freetyped;fribidi;harfbuzz;m;freetyped;cairo;dl;fontconfig;freetyped;expat;freetyped;bz2d;brotlidec;brotlicommon;Xext;Xrender;X11;pixman-1;gdk_pixbuf-2.0;png16d;tiffd;jpeg;lzma;gio-2.0;gobject-2.0;ffi;gmodule-2.0;glib-2.0;m;pcre2-8;z"
+		},
+		{
+			"name" : "GTKMM_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib"
+		},
+		{
+			"name" : "GTKMM_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_MODULE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gtkmm-3.0"
+		},
+		{
+			"name" : "GTKMM_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr"
+		},
+		{
+			"name" : "GTKMM_STATIC_CFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-I/usr/include/gtkmm-3.0;-I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include;-I/usr/include/giomm-2.4;-I/usr/lib/x86_64-linux-gnu/giomm-2.4/include;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/glib-2.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib/glib-2.0/include;-I/usr/include/glibmm-2.4;-I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include;-I/usr/include/sigc++-2.0;-I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include;-I/usr/include/gtk-3.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/pango-1.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/fribidi;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/harfbuzz;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/libpng16;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/cairo;-I/usr/include;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/pixman-1;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/gdk-pixbuf-2.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/gio-unix-2.0;-I/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/atk-1.0;-I/usr/include/at-spi2-atk/2.0;-I/usr/include/at-spi-2.0;-I/usr/include/dbus-1.0;-I/usr/lib/x86_64-linux-gnu/dbus-1.0/include;-I/usr/include/cairomm-1.0;-I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include;-I/usr/include/pangomm-1.4;-I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include;-I/usr/include/atkmm-1.6;-I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include;-I/usr/include/gtk-3.0/unix-print;-I/usr/include/gdkmm-3.0;-I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include;-DXML_STATIC;-DLZMA_API_STATIC;-pthread"
+		},
+		{
+			"name" : "GTKMM_STATIC_CFLAGS_I",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_STATIC_CFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-DXML_STATIC;-DLZMA_API_STATIC;-pthread"
+		},
+		{
+			"name" : "GTKMM_STATIC_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include/gtkmm-3.0;/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include;/usr/include/giomm-2.4;/usr/lib/x86_64-linux-gnu/giomm-2.4/include;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/glib-2.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib/glib-2.0/include;/usr/include/glibmm-2.4;/usr/lib/x86_64-linux-gnu/glibmm-2.4/include;/usr/include/sigc++-2.0;/usr/lib/x86_64-linux-gnu/sigc++-2.0/include;/usr/include/gtk-3.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/pango-1.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/fribidi;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/harfbuzz;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/libpng16;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/cairo;/usr/include;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/pixman-1;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/gdk-pixbuf-2.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/gio-unix-2.0;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../../include/atk-1.0;/usr/include/at-spi2-atk/2.0;/usr/include/at-spi-2.0;/usr/include/dbus-1.0;/usr/lib/x86_64-linux-gnu/dbus-1.0/include;/usr/include/cairomm-1.0;/usr/lib/x86_64-linux-gnu/cairomm-1.0/include;/usr/include/pangomm-1.4;/usr/lib/x86_64-linux-gnu/pangomm-1.4/include;/usr/include/atkmm-1.6;/usr/lib/x86_64-linux-gnu/atkmm-1.6/include;/usr/include/gtk-3.0/unix-print;/usr/include/gdkmm-3.0;/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include"
+		},
+		{
+			"name" : "GTKMM_STATIC_LDFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-L/usr/lib/x86_64-linux-gnu;-lgtkmm-3.0;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lgobject-2.0;-lglib-2.0;-lpcre2-8;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-pthread;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-pthread;-lfreetyped;-lm;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lwayland-client;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-L/usr/lib/x86_64-linux-gnu;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-latk-1.0;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lglib-2.0;-lm;-pthread;-lpcre2-8;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lgobject-2.0;-L/usr/lib/x86_64-linux-gnu;-latspi;-L/usr/lib/x86_64-linux-gnu;-lsystemd;-lglib-2.0;-lm;-pthread;-lpcre2-8;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-ldbus-1;-lsystemd;-lffi;-lgmodule-2.0;-lm;-pthread;-lpcre2-8;-lwayland-client;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-L/usr/lib/x86_64-linux-gnu;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-latkmm-1.6;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lgobject-2.0;-lglib-2.0;-lpcre2-8;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-pthread;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-pthread;-lfreetyped;-lm;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lwayland-client;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-L/usr/lib/x86_64-linux-gnu;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-latk-1.0;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lglib-2.0;-lm;-pthread;-lpcre2-8;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lgobject-2.0;-L/usr/lib/x86_64-linux-gnu;-latspi;-L/usr/lib/x86_64-linux-gnu;-lsystemd;-lglib-2.0;-lm;-pthread;-lpcre2-8;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-ldbus-1;-lsystemd;-lffi;-lgmodule-2.0;-lm;-pthread;-lpcre2-8;-lwayland-client;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-L/usr/lib/x86_64-linux-gnu;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lgdkmm-3.0;-lgiomm-2.4;-lgtk-3;-lgdk-3;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lgobject-2.0;-lglib-2.0;-lpcre2-8;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-pthread;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-pthread;-lfreetyped;-lm;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXrandr;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXcursor;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXcomposite;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXdamage;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXinerama;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lwayland-client;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-L/usr/lib/x86_64-linux-gnu;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-latk-1.0;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lcairo-gobject;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lglib-2.0;-lm;-pthread;-lpcre2-8;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lgobject-2.0;-latk-bridge-2.0;-L/usr/lib/x86_64-linux-gnu;-latspi;-L/usr/lib/x86_64-linux-gnu;-lsystemd;-lglib-2.0;-lm;-pthread;-lpcre2-8;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXtst;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXi;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXfixes;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-latk-1.0;-ldbus-1;-lsystemd;-lffi;-Wl,--export-dynamic;-lgmodule-2.0;-lm;-pthread;-lpcre2-8;-lwayland-client;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-lxkbcommon;-lwayland-cursor;-L/usr/lib/x86_64-linux-gnu;-lm;-pthread;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lffi;-lwayland-egl;-lwayland-client;-lrt;-L/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;-lepoxy;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lGL;-lEGL;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lpangomm-1.4;-lglibmm-2.4;-lcairomm-1.0;-lsigc-2.0;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lpangocairo-1.0;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lpangoft2-1.0;-lpango-1.0;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lm;-lfreetyped;-lfreetyped;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lfribidi;-lharfbuzz;-lm;-lfreetyped;-lcairo;-ldl;-lfontconfig;-lfreetyped;-lexpat;-lfreetyped;-lbz2d;-lbrotlidec;-lbrotlicommon;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXext;-L/usr/lib/x86_64-linux-gnu;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXrender;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-L/usr/lib/x86_64-linux-gnu;-lX11;-lpthread;-L/usr/lib/x86_64-linux-gnu;-lxcb;-L/usr/lib/x86_64-linux-gnu;-lXau;-lXdmcp;-lpixman-1;-lgdk_pixbuf-2.0;-lpng16d;-ltiffd;-ljpeg;-llzma;-lgio-2.0;-lgobject-2.0;-lffi;-lgmodule-2.0;-lglib-2.0;-lm;-pthread;-lpcre2-8;-lz"
+		},
+		{
+			"name" : "GTKMM_STATIC_LDFLAGS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-Wl,--export-dynamic;-pthread;-pthread;-pthread;-pthread"
+		},
+		{
+			"name" : "GTKMM_STATIC_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_STATIC_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gtkmm-3.0;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;gobject-2.0;glib-2.0;pcre2-8;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;ffi;freetyped;m;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;wayland-client;m;rt;ffi;m;rt;ffi;rt;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;pthread;xcb;Xau;atk-1.0;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;glib-2.0;m;pcre2-8;gobject-2.0;atspi;systemd;glib-2.0;m;pcre2-8;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;dbus-1;systemd;ffi;gmodule-2.0;m;pcre2-8;wayland-client;m;rt;ffi;m;rt;ffi;rt;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;atkmm-1.6;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;gobject-2.0;glib-2.0;pcre2-8;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;ffi;freetyped;m;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;wayland-client;m;rt;ffi;m;rt;ffi;rt;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;pthread;xcb;Xau;atk-1.0;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;glib-2.0;m;pcre2-8;gobject-2.0;atspi;systemd;glib-2.0;m;pcre2-8;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;dbus-1;systemd;ffi;gmodule-2.0;m;pcre2-8;wayland-client;m;rt;ffi;m;rt;ffi;rt;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;gdkmm-3.0;giomm-2.4;gtk-3;gdk-3;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;gobject-2.0;glib-2.0;pcre2-8;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;ffi;freetyped;m;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xrandr;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xcursor;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xcomposite;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xdamage;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xinerama;X11;pthread;xcb;Xau;pthread;xcb;Xau;wayland-client;m;rt;ffi;m;rt;ffi;rt;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;pthread;xcb;Xau;atk-1.0;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;cairo-gobject;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;glib-2.0;m;pcre2-8;gobject-2.0;atk-bridge-2.0;atspi;systemd;glib-2.0;m;pcre2-8;X11;pthread;xcb;Xau;Xtst;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xi;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xfixes;pthread;xcb;Xau;atk-1.0;dbus-1;systemd;ffi;gmodule-2.0;m;pcre2-8;wayland-client;m;rt;ffi;xkbcommon;wayland-cursor;m;rt;ffi;wayland-egl;wayland-client;rt;epoxy;pthread;xcb;Xau;GL;EGL;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;pangomm-1.4;glibmm-2.4;cairomm-1.0;sigc-2.0;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;pangocairo-1.0;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;pangoft2-1.0;pango-1.0;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;m;freetyped;freetyped;X11;pthread;xcb;Xau;pthread;xcb;Xau;X11;pthread;xcb;Xau;pthread;xcb;Xau;fribidi;harfbuzz;m;freetyped;cairo;dl;fontconfig;freetyped;expat;freetyped;bz2d;brotlidec;brotlicommon;X11;pthread;xcb;Xau;Xext;pthread;xcb;Xau;Xrender;X11;pthread;xcb;Xau;X11;pthread;xcb;Xau;Xdmcp;pixman-1;gdk_pixbuf-2.0;png16d;tiffd;jpeg;lzma;gio-2.0;gobject-2.0;ffi;gmodule-2.0;glib-2.0;m;pcre2-8;z"
+		},
+		{
+			"name" : "GTKMM_STATIC_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/pkgconfig/../../lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu"
+		},
+		{
+			"name" : "GTKMM_STATIC_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_STATIC_LIBS_L",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_STATIC_LIBS_OTHER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_STATIC_LIBS_PATHS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3.24.9"
+		},
+		{
+			"name" : "GTKMM_gtkmm-3.0_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_gtkmm-3.0_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_gtkmm-3.0_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "GTKMM_gtkmm-3.0_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "OCViewer_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/drives/HD2/Projects/OCV2Viewer/build"
+		},
+		{
+			"name" : "OCViewer_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "OCViewer_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/drives/HD2/Projects/OCV2Viewer"
+		},
+		{
+			"name" : "OpenCV_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for OpenCV."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4"
+		},
+		{
+			"name" : "PKG_CONFIG_ARGN",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Arguments to supply to pkg-config"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "PKG_CONFIG_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "pkg-config executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/pkg-config"
+		},
+		{
+			"name" : "Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/drives/HD2/Projects/OCV2Viewer/build"
+		},
+		{
+			"name" : "Project_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/drives/HD2/Projects/OCV2Viewer"
+		},
+		{
+			"name" : "Qt5Core_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5Core."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core"
+		},
+		{
+			"name" : "Qt5Gui_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5Gui."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui"
+		},
+		{
+			"name" : "Qt5Widgets_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5Widgets."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets"
+		},
+		{
+			"name" : "Qt5_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5"
+		},
+		{
+			"name" : "VCPKG_APPLOCAL_DEPS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Automatically copy dependencies into the output directory for executables."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "VCPKG_INSTALLED_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory which contains the installed libraries for each triplet"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed"
+		},
+		{
+			"name" : "VCPKG_MANIFEST_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The path to the vcpkg manifest directory."
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "VCPKG_MANIFEST_INSTALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install the dependencies listed in your manifest:\n    If this is off, you will have to manually install your dependencies.\n    See https://github.com/microsoft/vcpkg/tree/master/docs/specifications/manifests.md for more info.\n"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "VCPKG_MANIFEST_MODE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use manifest mode, as opposed to classic mode."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "VCPKG_PREFER_SYSTEM_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Appends the vcpkg paths to CMAKE_PREFIX_PATH, CMAKE_LIBRARY_PATH and CMAKE_FIND_ROOT_PATH so that vcpkg libraries/packages are found after toolchain/system libraries/packages."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "VCPKG_SETUP_CMAKE_PROGRAM_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable the setup of CMAKE_PROGRAM_PATH to vcpkg paths"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "VCPKG_TARGET_TRIPLET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Vcpkg target triplet (ex. x86-windows)"
+				}
+			],
+			"type" : "STRING",
+			"value" : "x64-linux"
+		},
+		{
+			"name" : "VCPKG_TRACE_FIND_PACKAGE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Trace calls to find_package()"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "VCPKG_VERBOSE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables messages from the VCPKG toolchain for debugging purposes."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "X_VCPKG_APPLOCAL_DEPS_INSTALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "(experimental) Automatically copy dependencies into the install target directory for executables. Requires CMake 3.14."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "X_VCPKG_APPLOCAL_DEPS_SERIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "(experimental) Add USES_TERMINAL to VCPKG_APPLOCAL_DEPS to force serialization."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Z_VCPKG_CHECK_MANIFEST_MODE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Making sure VCPKG_MANIFEST_MODE doesn't change"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Z_VCPKG_CL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "Z_VCPKG_CL-NOTFOUND"
+		},
+		{
+			"name" : "Z_VCPKG_ROOT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Vcpkg root directory"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/mwiner/libs/vcpkg"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "_VCPKG_INSTALLED_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory which contains the installed libraries for each triplet"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed"
+		},
+		{
+			"name" : "__pkg_config_arguments_GTKMM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "REQUIRED;gtkmm-3.0"
+		},
+		{
+			"name" : "__pkg_config_checked_GTKMM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_X11",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libX11.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_Xext",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libXext.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_Xrender",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libXrender.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_atk-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libatk-1.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_atkmm-1.6",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libatkmm-1.6.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_brotlicommon",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libbrotlicommon.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_brotlidec",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libbrotlidec.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_bz2d",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libbz2d.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_cairo",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libcairo.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_cairo-gobject",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libcairo-gobject.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_cairomm-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libcairomm-1.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_dl",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libdl.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_expat",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libexpat.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_ffi",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libffi.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_fontconfig",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libfontconfig.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_freetyped",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libfreetyped.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_fribidi",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libfribidi.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_gdk-3",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libgdk-3.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_gdk_pixbuf-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libgdk_pixbuf-2.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_gdkmm-3.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libgdkmm-3.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_gio-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libgio-2.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_giomm-2.4",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libgiomm-2.4.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_glib-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libglib-2.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_glibmm-2.4",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libglibmm-2.4.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_gmodule-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libgmodule-2.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_gobject-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libgobject-2.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_gtk-3",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libgtk-3.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_gtkmm-3.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libgtkmm-3.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_harfbuzz",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libharfbuzz.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_jpeg",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libjpeg.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_lzma",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/liblzma.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_m",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libm.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_pango-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libpango-1.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_pangocairo-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libpangocairo-1.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_pangoft2-1.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libpangoft2-1.0.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_pangomm-1.4",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libpangomm-1.4.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_pcre2-8",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libpcre2-8.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_pixman-1",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libpixman-1.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_png16d",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libpng16d.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_sigc-2.0",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libsigc-2.0.so"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_tiffd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libtiffd.a"
+		},
+		{
+			"name" : "pkgcfg_lib_GTKMM_z",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/mwiner/libs/vcpkg/installed/x64-linux/debug/lib/libz.a"
+		},
+		{
+			"name" : "prefix_result",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/x86_64-linux-gnu"
+		}
+	],
+	"kind" : "cache",
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

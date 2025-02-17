@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/mnt/drives/HD2/Projects/OCV2Viewer/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/mnt/drives/HD2/Projects/OCV2Viewer/build/OCViewer_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/OCViewer.dir/OCViewer_autogen/mocs_compilation.cpp.o -c /mnt/drives/HD2/Projects/OCV2Viewer/build/OCViewer_autogen/mocs_compilation.cpp",
+  "file": "/mnt/drives/HD2/Projects/OCV2Viewer/build/OCViewer_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/OCViewer.dir/OCViewer_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/mnt/drives/HD2/Projects/OCV2Viewer/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/mnt/drives/HD2/Projects/OCV2Viewer/build/OCViewer_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/OCViewer.dir/main.cpp.o -c /mnt/drives/HD2/Projects/OCV2Viewer/main.cpp",
+  "file": "/mnt/drives/HD2/Projects/OCV2Viewer/main.cpp",
+  "output": "CMakeFiles/OCViewer.dir/main.cpp.o"
+},
+{
+  "directory": "/mnt/drives/HD2/Projects/OCV2Viewer/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/mnt/drives/HD2/Projects/OCV2Viewer/build/OCViewer_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -g -fdiagnostics-color=always -fPIC -o CMakeFiles/OCViewer.dir/mainwindow.cpp.o -c /mnt/drives/HD2/Projects/OCV2Viewer/mainwindow.cpp",
+  "file": "/mnt/drives/HD2/Projects/OCV2Viewer/mainwindow.cpp",
+  "output": "CMakeFiles/OCViewer.dir/mainwindow.cpp.o"
+}
+]
